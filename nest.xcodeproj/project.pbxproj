@@ -1,0 +1,899 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A2AE0BA208C2E0C004BCCBB /* CompetitorRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A2AE08E208C2E0C004BCCBB /* CompetitorRootViewController.m */; };
+		1A2AE0BB208C2E0C004BCCBB /* HomeTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A2AE090208C2E0C004BCCBB /* HomeTabBarController.m */; };
+		1A2AE0BC208C2E0C004BCCBB /* MySeasonRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A2AE093208C2E0C004BCCBB /* MySeasonRootViewController.m */; };
+		1A2AE0BD208C2E0C004BCCBB /* HMSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A2AE096208C2E0C004BCCBB /* HMSegmentedControl.m */; };
+		1A2AE0BE208C2E0C004BCCBB /* MYTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A2AE099208C2E0C004BCCBB /* MYTableView.m */; };
+		1A2AE0BF208C2E0C004BCCBB /* MyTeamHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A2AE09C208C2E0C004BCCBB /* MyTeamHeaderCell.m */; };
+		1A2AE0C0208C2E0C004BCCBB /* MyteamHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A2AE09E208C2E0C004BCCBB /* MyteamHeaderView.m */; };
+		1A2AE0C1208C2E0C004BCCBB /* MyTeamNaviBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A2AE0A0208C2E0C004BCCBB /* MyTeamNaviBar.m */; };
+		1A2AE0C2208C2E0C004BCCBB /* MyTeamPlayerCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A2AE0A2208C2E0C004BCCBB /* MyTeamPlayerCellTableViewCell.m */; };
+		1A2AE0C3208C2E0C004BCCBB /* MyTeamPlayersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A2AE0A4208C2E0C004BCCBB /* MyTeamPlayersViewController.m */; };
+		1A2AE0C4208C2E0C004BCCBB /* MyTeamRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A2AE0A6208C2E0C004BCCBB /* MyTeamRootViewController.m */; };
+		1A2AE0C5208C2E0C004BCCBB /* MyTeamSegmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A2AE0A9208C2E0C004BCCBB /* MyTeamSegmentViewController.m */; };
+		1A2AE0C7208C2E0C004BCCBB /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A2AE0AE208C2E0C004BCCBB /* SettingViewController.m */; };
+		1A2AE0C8208C2E0C004BCCBB /* UIScrollView+Direction.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A2AE0B0208C2E0C004BCCBB /* UIScrollView+Direction.m */; };
+		1A2AE0C9208C2E0C004BCCBB /* RankingRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A2AE0B3208C2E0C004BCCBB /* RankingRootViewController.m */; };
+		1A2AE0CA208C2E0C004BCCBB /* Test1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A2AE0B5208C2E0C004BCCBB /* Test1ViewController.m */; };
+		1A81F97A208C23310033D73C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A81F979208C23310033D73C /* main.m */; };
+		1A81F97D208C23310033D73C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A81F97C208C23310033D73C /* AppDelegate.m */; };
+		1A81F980208C23310033D73C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A81F97F208C23310033D73C /* ViewController.m */; };
+		1A81F983208C23310033D73C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A81F981208C23310033D73C /* Main.storyboard */; };
+		1A81F985208C23310033D73C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A81F984208C23310033D73C /* Assets.xcassets */; };
+		1A81F988208C23310033D73C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A81F986208C23310033D73C /* LaunchScreen.storyboard */; };
+		1A81F993208C23310033D73C /* nestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A81F992208C23310033D73C /* nestTests.m */; };
+		1A81F99E208C23310033D73C /* nestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A81F99D208C23310033D73C /* nestUITests.m */; };
+		1A81F9DC208C24E80033D73C /* UIColor+HexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A81F9DB208C24E80033D73C /* UIColor+HexColor.m */; };
+		244B8A5AB09F6CAF347FFB92 /* libPods-nest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B8AAAF1EC1624206BB268C9E /* libPods-nest.a */; };
+		37F58D5D01D1BE0BCE15295E /* libPods-nestUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DF5C953E1EFB0DF8D51DDBC /* libPods-nestUITests.a */; };
+		C3FAB1ADA5D6352A90F4BE1B /* libPods-nestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F4D5EEB2ED595DFA31F7FCCE /* libPods-nestTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A81F98F208C23310033D73C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A81F96D208C23300033D73C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A81F974208C23310033D73C;
+			remoteInfo = nest;
+		};
+		1A81F99A208C23310033D73C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A81F96D208C23300033D73C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A81F974208C23310033D73C;
+			remoteInfo = nest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10763E6D4C13D3345222A236 /* Pods-nestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-nestTests/Pods-nestTests.release.xcconfig"; sourceTree = "<group>"; };
+		1A2AE08D208C2E0C004BCCBB /* CompetitorRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompetitorRootViewController.h; sourceTree = "<group>"; };
+		1A2AE08E208C2E0C004BCCBB /* CompetitorRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompetitorRootViewController.m; sourceTree = "<group>"; };
+		1A2AE08F208C2E0C004BCCBB /* HomeTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTabBarController.h; sourceTree = "<group>"; };
+		1A2AE090208C2E0C004BCCBB /* HomeTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTabBarController.m; sourceTree = "<group>"; };
+		1A2AE092208C2E0C004BCCBB /* MySeasonRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MySeasonRootViewController.h; sourceTree = "<group>"; };
+		1A2AE093208C2E0C004BCCBB /* MySeasonRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MySeasonRootViewController.m; sourceTree = "<group>"; };
+		1A2AE095208C2E0C004BCCBB /* HMSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMSegmentedControl.h; sourceTree = "<group>"; };
+		1A2AE096208C2E0C004BCCBB /* HMSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMSegmentedControl.m; sourceTree = "<group>"; };
+		1A2AE098208C2E0C004BCCBB /* MYTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYTableView.h; sourceTree = "<group>"; };
+		1A2AE099208C2E0C004BCCBB /* MYTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYTableView.m; sourceTree = "<group>"; };
+		1A2AE09A208C2E0C004BCCBB /* MyTeamContainerViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTeamContainerViewDelegate.h; sourceTree = "<group>"; };
+		1A2AE09B208C2E0C004BCCBB /* MyTeamHeaderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTeamHeaderCell.h; sourceTree = "<group>"; };
+		1A2AE09C208C2E0C004BCCBB /* MyTeamHeaderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTeamHeaderCell.m; sourceTree = "<group>"; };
+		1A2AE09D208C2E0C004BCCBB /* MyteamHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyteamHeaderView.h; sourceTree = "<group>"; };
+		1A2AE09E208C2E0C004BCCBB /* MyteamHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyteamHeaderView.m; sourceTree = "<group>"; };
+		1A2AE09F208C2E0C004BCCBB /* MyTeamNaviBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTeamNaviBar.h; sourceTree = "<group>"; };
+		1A2AE0A0208C2E0C004BCCBB /* MyTeamNaviBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTeamNaviBar.m; sourceTree = "<group>"; };
+		1A2AE0A1208C2E0C004BCCBB /* MyTeamPlayerCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTeamPlayerCellTableViewCell.h; sourceTree = "<group>"; };
+		1A2AE0A2208C2E0C004BCCBB /* MyTeamPlayerCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTeamPlayerCellTableViewCell.m; sourceTree = "<group>"; };
+		1A2AE0A3208C2E0C004BCCBB /* MyTeamPlayersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTeamPlayersViewController.h; sourceTree = "<group>"; };
+		1A2AE0A4208C2E0C004BCCBB /* MyTeamPlayersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTeamPlayersViewController.m; sourceTree = "<group>"; };
+		1A2AE0A5208C2E0C004BCCBB /* MyTeamRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTeamRootViewController.h; sourceTree = "<group>"; };
+		1A2AE0A6208C2E0C004BCCBB /* MyTeamRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTeamRootViewController.m; sourceTree = "<group>"; };
+		1A2AE0A7208C2E0C004BCCBB /* MyTeamScrollerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTeamScrollerDelegate.h; sourceTree = "<group>"; };
+		1A2AE0A8208C2E0C004BCCBB /* MyTeamSegmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTeamSegmentViewController.h; sourceTree = "<group>"; };
+		1A2AE0A9208C2E0C004BCCBB /* MyTeamSegmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTeamSegmentViewController.m; sourceTree = "<group>"; };
+		1A2AE0AD208C2E0C004BCCBB /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		1A2AE0AE208C2E0C004BCCBB /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		1A2AE0AF208C2E0C004BCCBB /* UIScrollView+Direction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+Direction.h"; sourceTree = "<group>"; };
+		1A2AE0B0208C2E0C004BCCBB /* UIScrollView+Direction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+Direction.m"; sourceTree = "<group>"; };
+		1A2AE0B2208C2E0C004BCCBB /* RankingRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RankingRootViewController.h; sourceTree = "<group>"; };
+		1A2AE0B3208C2E0C004BCCBB /* RankingRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RankingRootViewController.m; sourceTree = "<group>"; };
+		1A2AE0B4208C2E0C004BCCBB /* Test1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test1ViewController.h; sourceTree = "<group>"; };
+		1A2AE0B5208C2E0C004BCCBB /* Test1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test1ViewController.m; sourceTree = "<group>"; };
+		1A81F975208C23310033D73C /* nest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A81F979208C23310033D73C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1A81F97B208C23310033D73C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1A81F97C208C23310033D73C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1A81F97E208C23310033D73C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1A81F97F208C23310033D73C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1A81F982208C23310033D73C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1A81F984208C23310033D73C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A81F987208C23310033D73C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1A81F989208C23310033D73C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A81F98E208C23310033D73C /* nestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A81F992208C23310033D73C /* nestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = nestTests.m; sourceTree = "<group>"; };
+		1A81F994208C23310033D73C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A81F999208C23310033D73C /* nestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A81F99D208C23310033D73C /* nestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = nestUITests.m; sourceTree = "<group>"; };
+		1A81F99F208C23310033D73C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A81F9DA208C24E80033D73C /* UIColor+HexColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexColor.h"; sourceTree = "<group>"; };
+		1A81F9DB208C24E80033D73C /* UIColor+HexColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexColor.m"; sourceTree = "<group>"; };
+		1A81F9DD208C25A10033D73C /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		583E4858FFA7D2024D16C3D7 /* Pods-nestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-nestTests/Pods-nestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7BE0253AF52036151F165981 /* Pods-nest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nest.release.xcconfig"; path = "Pods/Target Support Files/Pods-nest/Pods-nest.release.xcconfig"; sourceTree = "<group>"; };
+		815F612821E6EFE731040A0B /* Pods-nest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-nest/Pods-nest.debug.xcconfig"; sourceTree = "<group>"; };
+		9DF5C953E1EFB0DF8D51DDBC /* libPods-nestUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-nestUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8AAAF1EC1624206BB268C9E /* libPods-nest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-nest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE63B903B5D42D0B6A6FDF6B /* Pods-nestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nestUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-nestUITests/Pods-nestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DA6A3E09C80D3FF8248901D2 /* Pods-nestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nestUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-nestUITests/Pods-nestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F4D5EEB2ED595DFA31F7FCCE /* libPods-nestTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-nestTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A81F972208C23310033D73C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				244B8A5AB09F6CAF347FFB92 /* libPods-nest.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A81F98B208C23310033D73C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3FAB1ADA5D6352A90F4BE1B /* libPods-nestTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A81F996208C23310033D73C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37F58D5D01D1BE0BCE15295E /* libPods-nestUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A2AE08B208C2E0C004BCCBB /* initVC */ = {
+			isa = PBXGroup;
+			children = (
+				1A2AE08C208C2E0C004BCCBB /* Competitor */,
+				1A2AE08F208C2E0C004BCCBB /* HomeTabBarController.h */,
+				1A2AE090208C2E0C004BCCBB /* HomeTabBarController.m */,
+				1A2AE091208C2E0C004BCCBB /* MySeason */,
+				1A2AE094208C2E0C004BCCBB /* MyTeam */,
+				1A2AE0B1208C2E0C004BCCBB /* Ranking */,
+				1A2AE0B4208C2E0C004BCCBB /* Test1ViewController.h */,
+				1A2AE0B5208C2E0C004BCCBB /* Test1ViewController.m */,
+			);
+			path = initVC;
+			sourceTree = "<group>";
+		};
+		1A2AE08C208C2E0C004BCCBB /* Competitor */ = {
+			isa = PBXGroup;
+			children = (
+				1A2AE08D208C2E0C004BCCBB /* CompetitorRootViewController.h */,
+				1A2AE08E208C2E0C004BCCBB /* CompetitorRootViewController.m */,
+			);
+			path = Competitor;
+			sourceTree = "<group>";
+		};
+		1A2AE091208C2E0C004BCCBB /* MySeason */ = {
+			isa = PBXGroup;
+			children = (
+				1A2AE092208C2E0C004BCCBB /* MySeasonRootViewController.h */,
+				1A2AE093208C2E0C004BCCBB /* MySeasonRootViewController.m */,
+			);
+			path = MySeason;
+			sourceTree = "<group>";
+		};
+		1A2AE094208C2E0C004BCCBB /* MyTeam */ = {
+			isa = PBXGroup;
+			children = (
+				1A2AE095208C2E0C004BCCBB /* HMSegmentedControl.h */,
+				1A2AE096208C2E0C004BCCBB /* HMSegmentedControl.m */,
+				1A2AE097208C2E0C004BCCBB /* model */,
+				1A2AE098208C2E0C004BCCBB /* MYTableView.h */,
+				1A2AE099208C2E0C004BCCBB /* MYTableView.m */,
+				1A2AE09A208C2E0C004BCCBB /* MyTeamContainerViewDelegate.h */,
+				1A2AE09B208C2E0C004BCCBB /* MyTeamHeaderCell.h */,
+				1A2AE09C208C2E0C004BCCBB /* MyTeamHeaderCell.m */,
+				1A2AE09D208C2E0C004BCCBB /* MyteamHeaderView.h */,
+				1A2AE09E208C2E0C004BCCBB /* MyteamHeaderView.m */,
+				1A2AE09F208C2E0C004BCCBB /* MyTeamNaviBar.h */,
+				1A2AE0A0208C2E0C004BCCBB /* MyTeamNaviBar.m */,
+				1A2AE0A1208C2E0C004BCCBB /* MyTeamPlayerCellTableViewCell.h */,
+				1A2AE0A2208C2E0C004BCCBB /* MyTeamPlayerCellTableViewCell.m */,
+				1A2AE0A3208C2E0C004BCCBB /* MyTeamPlayersViewController.h */,
+				1A2AE0A4208C2E0C004BCCBB /* MyTeamPlayersViewController.m */,
+				1A2AE0A5208C2E0C004BCCBB /* MyTeamRootViewController.h */,
+				1A2AE0A6208C2E0C004BCCBB /* MyTeamRootViewController.m */,
+				1A2AE0A7208C2E0C004BCCBB /* MyTeamScrollerDelegate.h */,
+				1A2AE0A8208C2E0C004BCCBB /* MyTeamSegmentViewController.h */,
+				1A2AE0A9208C2E0C004BCCBB /* MyTeamSegmentViewController.m */,
+				1A2AE0AD208C2E0C004BCCBB /* SettingViewController.h */,
+				1A2AE0AE208C2E0C004BCCBB /* SettingViewController.m */,
+				1A2AE0AF208C2E0C004BCCBB /* UIScrollView+Direction.h */,
+				1A2AE0B0208C2E0C004BCCBB /* UIScrollView+Direction.m */,
+			);
+			path = MyTeam;
+			sourceTree = "<group>";
+		};
+		1A2AE097208C2E0C004BCCBB /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		1A2AE0B1208C2E0C004BCCBB /* Ranking */ = {
+			isa = PBXGroup;
+			children = (
+				1A2AE0B2208C2E0C004BCCBB /* RankingRootViewController.h */,
+				1A2AE0B3208C2E0C004BCCBB /* RankingRootViewController.m */,
+			);
+			path = Ranking;
+			sourceTree = "<group>";
+		};
+		1A81F96C208C23300033D73C = {
+			isa = PBXGroup;
+			children = (
+				1A81F9DD208C25A10033D73C /* PrefixHeader.pch */,
+				1A81F977208C23310033D73C /* nest */,
+				1A81F991208C23310033D73C /* nestTests */,
+				1A81F99C208C23310033D73C /* nestUITests */,
+				1A81F976208C23310033D73C /* Products */,
+				2145E204D0B4B10B810E6BF6 /* Pods */,
+				E7E89FCB87B8F56BB206953F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1A81F976208C23310033D73C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A81F975208C23310033D73C /* nest.app */,
+				1A81F98E208C23310033D73C /* nestTests.xctest */,
+				1A81F999208C23310033D73C /* nestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A81F977208C23310033D73C /* nest */ = {
+			isa = PBXGroup;
+			children = (
+				1A2AE08B208C2E0C004BCCBB /* initVC */,
+				1A81F9DA208C24E80033D73C /* UIColor+HexColor.h */,
+				1A81F9DB208C24E80033D73C /* UIColor+HexColor.m */,
+				1A81F97B208C23310033D73C /* AppDelegate.h */,
+				1A81F97C208C23310033D73C /* AppDelegate.m */,
+				1A81F97E208C23310033D73C /* ViewController.h */,
+				1A81F97F208C23310033D73C /* ViewController.m */,
+				1A81F981208C23310033D73C /* Main.storyboard */,
+				1A81F984208C23310033D73C /* Assets.xcassets */,
+				1A81F986208C23310033D73C /* LaunchScreen.storyboard */,
+				1A81F989208C23310033D73C /* Info.plist */,
+				1A81F978208C23310033D73C /* Supporting Files */,
+			);
+			path = nest;
+			sourceTree = "<group>";
+		};
+		1A81F978208C23310033D73C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A81F979208C23310033D73C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1A81F991208C23310033D73C /* nestTests */ = {
+			isa = PBXGroup;
+			children = (
+				1A81F992208C23310033D73C /* nestTests.m */,
+				1A81F994208C23310033D73C /* Info.plist */,
+			);
+			path = nestTests;
+			sourceTree = "<group>";
+		};
+		1A81F99C208C23310033D73C /* nestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1A81F99D208C23310033D73C /* nestUITests.m */,
+				1A81F99F208C23310033D73C /* Info.plist */,
+			);
+			path = nestUITests;
+			sourceTree = "<group>";
+		};
+		2145E204D0B4B10B810E6BF6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				815F612821E6EFE731040A0B /* Pods-nest.debug.xcconfig */,
+				7BE0253AF52036151F165981 /* Pods-nest.release.xcconfig */,
+				583E4858FFA7D2024D16C3D7 /* Pods-nestTests.debug.xcconfig */,
+				10763E6D4C13D3345222A236 /* Pods-nestTests.release.xcconfig */,
+				DA6A3E09C80D3FF8248901D2 /* Pods-nestUITests.debug.xcconfig */,
+				BE63B903B5D42D0B6A6FDF6B /* Pods-nestUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E7E89FCB87B8F56BB206953F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B8AAAF1EC1624206BB268C9E /* libPods-nest.a */,
+				F4D5EEB2ED595DFA31F7FCCE /* libPods-nestTests.a */,
+				9DF5C953E1EFB0DF8D51DDBC /* libPods-nestUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A81F974208C23310033D73C /* nest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A81F9A2208C23310033D73C /* Build configuration list for PBXNativeTarget "nest" */;
+			buildPhases = (
+				8E8591C34CBB817B7C6B3786 /* [CP] Check Pods Manifest.lock */,
+				1A81F971208C23310033D73C /* Sources */,
+				1A81F972208C23310033D73C /* Frameworks */,
+				1A81F973208C23310033D73C /* Resources */,
+				A199177B5868BEFF645AF608 /* [CP] Embed Pods Frameworks */,
+				B988CD514FC0A74382E0E9DC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = nest;
+			productName = nest;
+			productReference = 1A81F975208C23310033D73C /* nest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1A81F98D208C23310033D73C /* nestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A81F9A5208C23310033D73C /* Build configuration list for PBXNativeTarget "nestTests" */;
+			buildPhases = (
+				6206322FBDB2842CB9D94C61 /* [CP] Check Pods Manifest.lock */,
+				1A81F98A208C23310033D73C /* Sources */,
+				1A81F98B208C23310033D73C /* Frameworks */,
+				1A81F98C208C23310033D73C /* Resources */,
+				6C0F90E98905DF40F39EB59B /* [CP] Embed Pods Frameworks */,
+				4848D7F574235A29A229821F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A81F990208C23310033D73C /* PBXTargetDependency */,
+			);
+			name = nestTests;
+			productName = nestTests;
+			productReference = 1A81F98E208C23310033D73C /* nestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1A81F998208C23310033D73C /* nestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A81F9A8208C23310033D73C /* Build configuration list for PBXNativeTarget "nestUITests" */;
+			buildPhases = (
+				7C2F3D37D45E9602D479D96E /* [CP] Check Pods Manifest.lock */,
+				1A81F995208C23310033D73C /* Sources */,
+				1A81F996208C23310033D73C /* Frameworks */,
+				1A81F997208C23310033D73C /* Resources */,
+				9BD401A609E02F1829D83226 /* [CP] Embed Pods Frameworks */,
+				A79C424F69D9372DC9D2C1C3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A81F99B208C23310033D73C /* PBXTargetDependency */,
+			);
+			name = nestUITests;
+			productName = nestUITests;
+			productReference = 1A81F999208C23310033D73C /* nestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A81F96D208C23300033D73C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = mht;
+				TargetAttributes = {
+					1A81F974208C23310033D73C = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 5E2PGY2377;
+						ProvisioningStyle = Manual;
+					};
+					1A81F98D208C23310033D73C = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = QG8KTU8ETB;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1A81F974208C23310033D73C;
+					};
+					1A81F998208C23310033D73C = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = QG8KTU8ETB;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1A81F974208C23310033D73C;
+					};
+				};
+			};
+			buildConfigurationList = 1A81F970208C23310033D73C /* Build configuration list for PBXProject "nest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A81F96C208C23300033D73C;
+			productRefGroup = 1A81F976208C23310033D73C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A81F974208C23310033D73C /* nest */,
+				1A81F98D208C23310033D73C /* nestTests */,
+				1A81F998208C23310033D73C /* nestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A81F973208C23310033D73C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A81F988208C23310033D73C /* LaunchScreen.storyboard in Resources */,
+				1A81F985208C23310033D73C /* Assets.xcassets in Resources */,
+				1A81F983208C23310033D73C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A81F98C208C23310033D73C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A81F997208C23310033D73C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4848D7F574235A29A229821F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-nestTests/Pods-nestTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6206322FBDB2842CB9D94C61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6C0F90E98905DF40F39EB59B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-nestTests/Pods-nestTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C2F3D37D45E9602D479D96E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8E8591C34CBB817B7C6B3786 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9BD401A609E02F1829D83226 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-nestUITests/Pods-nestUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A199177B5868BEFF645AF608 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-nest/Pods-nest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A79C424F69D9372DC9D2C1C3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-nestUITests/Pods-nestUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B988CD514FC0A74382E0E9DC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-nest/Pods-nest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A81F971208C23310033D73C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A2AE0C3208C2E0C004BCCBB /* MyTeamPlayersViewController.m in Sources */,
+				1A2AE0BB208C2E0C004BCCBB /* HomeTabBarController.m in Sources */,
+				1A2AE0BD208C2E0C004BCCBB /* HMSegmentedControl.m in Sources */,
+				1A2AE0C0208C2E0C004BCCBB /* MyteamHeaderView.m in Sources */,
+				1A2AE0BA208C2E0C004BCCBB /* CompetitorRootViewController.m in Sources */,
+				1A2AE0C7208C2E0C004BCCBB /* SettingViewController.m in Sources */,
+				1A2AE0C4208C2E0C004BCCBB /* MyTeamRootViewController.m in Sources */,
+				1A2AE0C9208C2E0C004BCCBB /* RankingRootViewController.m in Sources */,
+				1A81F9DC208C24E80033D73C /* UIColor+HexColor.m in Sources */,
+				1A2AE0C5208C2E0C004BCCBB /* MyTeamSegmentViewController.m in Sources */,
+				1A81F980208C23310033D73C /* ViewController.m in Sources */,
+				1A2AE0C2208C2E0C004BCCBB /* MyTeamPlayerCellTableViewCell.m in Sources */,
+				1A2AE0C1208C2E0C004BCCBB /* MyTeamNaviBar.m in Sources */,
+				1A2AE0BF208C2E0C004BCCBB /* MyTeamHeaderCell.m in Sources */,
+				1A81F97D208C23310033D73C /* AppDelegate.m in Sources */,
+				1A2AE0BC208C2E0C004BCCBB /* MySeasonRootViewController.m in Sources */,
+				1A2AE0C8208C2E0C004BCCBB /* UIScrollView+Direction.m in Sources */,
+				1A2AE0CA208C2E0C004BCCBB /* Test1ViewController.m in Sources */,
+				1A81F97A208C23310033D73C /* main.m in Sources */,
+				1A2AE0BE208C2E0C004BCCBB /* MYTableView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A81F98A208C23310033D73C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A81F993208C23310033D73C /* nestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A81F995208C23310033D73C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A81F99E208C23310033D73C /* nestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A81F990208C23310033D73C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A81F974208C23310033D73C /* nest */;
+			targetProxy = 1A81F98F208C23310033D73C /* PBXContainerItemProxy */;
+		};
+		1A81F99B208C23310033D73C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A81F974208C23310033D73C /* nest */;
+			targetProxy = 1A81F99A208C23310033D73C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1A81F981208C23310033D73C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A81F982208C23310033D73C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1A81F986208C23310033D73C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A81F987208C23310033D73C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A81F9A0208C23310033D73C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1A81F9A1208C23310033D73C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A81F9A3208C23310033D73C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 815F612821E6EFE731040A0B /* Pods-nest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 5E2PGY2377;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PrefixHeader.pch";
+				INFOPLIST_FILE = nest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = miaoht.nest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "00ea447f-5b4b-4876-8f41-2e9246a1b441";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		1A81F9A4208C23310033D73C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BE0253AF52036151F165981 /* Pods-nest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 5E2PGY2377;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PrefixHeader.pch";
+				INFOPLIST_FILE = nest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = miaoht.nest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "00ea447f-5b4b-4876-8f41-2e9246a1b441";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+		1A81F9A6208C23310033D73C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 583E4858FFA7D2024D16C3D7 /* Pods-nestTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = QG8KTU8ETB;
+				INFOPLIST_FILE = nestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = miaoht.nestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nest.app/nest";
+			};
+			name = Debug;
+		};
+		1A81F9A7208C23310033D73C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10763E6D4C13D3345222A236 /* Pods-nestTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = QG8KTU8ETB;
+				INFOPLIST_FILE = nestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = miaoht.nestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nest.app/nest";
+			};
+			name = Release;
+		};
+		1A81F9A9208C23310033D73C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA6A3E09C80D3FF8248901D2 /* Pods-nestUITests.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = QG8KTU8ETB;
+				INFOPLIST_FILE = nestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = miaoht.nestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = nest;
+			};
+			name = Debug;
+		};
+		1A81F9AA208C23310033D73C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE63B903B5D42D0B6A6FDF6B /* Pods-nestUITests.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = QG8KTU8ETB;
+				INFOPLIST_FILE = nestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = miaoht.nestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = nest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A81F970208C23310033D73C /* Build configuration list for PBXProject "nest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A81F9A0208C23310033D73C /* Debug */,
+				1A81F9A1208C23310033D73C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A81F9A2208C23310033D73C /* Build configuration list for PBXNativeTarget "nest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A81F9A3208C23310033D73C /* Debug */,
+				1A81F9A4208C23310033D73C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A81F9A5208C23310033D73C /* Build configuration list for PBXNativeTarget "nestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A81F9A6208C23310033D73C /* Debug */,
+				1A81F9A7208C23310033D73C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A81F9A8208C23310033D73C /* Build configuration list for PBXNativeTarget "nestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A81F9A9208C23310033D73C /* Debug */,
+				1A81F9AA208C23310033D73C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A81F96D208C23300033D73C /* Project object */;
+}
